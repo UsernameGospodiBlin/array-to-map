@@ -1,3 +1,11 @@
+customMap принимает массив и коллбэк.
+затем создает новый массив result.
+Проходит по каждому элементу исходного массива, применяя к нему коллбэк, и добавляет результат в result.
+Возвращает новый массив result.
+Переопределяет Array.prototype.map для использования customMap.
+MyComponent:
+Использует новый метод map для удвоения значений массива numbers.
+Отображает удвоенные значения в списке.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
